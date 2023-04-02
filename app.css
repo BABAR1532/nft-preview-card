@@ -57,7 +57,7 @@ body{
 
 .main-content{
 	  height: 65vh;
-	  max-width: 300px;
+	  max-width: 295px;
 	  display: flex;
 	  flex-direction: column;
 	  justify-content: space-between;
