@@ -56,13 +56,13 @@ body{
 }
 
 .main-content{
-	  height: 70vh;
+	  height: 65vh;
 	  max-width: 305px;
 	  display: flex;
 	  flex-direction: column;
 	  justify-content: space-between;
 	  background-color:wheat;
-	  padding:24px;
+	  padding:28px;
 	  border-radius: 12.5px;
 	  font-family: 'Outfit', sans-serif;
 	  background-color: hsl(216, 50%, 16%);
