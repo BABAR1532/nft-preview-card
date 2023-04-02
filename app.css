@@ -1,0 +1,174 @@
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My code from here */
+
+body{
+     position:relative;
+	 overflow: hidden;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(217, 54%, 11%);
+}
+
+.main-content{
+	  height: 65vh;
+	  max-width: 290px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  background-color:wheat;
+	  padding:20px;
+	  border-radius: 12.5px;
+	  font-family: 'Outfit', sans-serif;
+	  background-color: hsl(216, 50%, 16%);
+}
+
+
+p{
+	 font-size: 18px;
+	 line-height: 1.3;
+	 font-weight: 300;
+}
+
+h1{
+	 font-size: 22px;
+	 font-weight: 500;
+	 color:rgb(241, 238, 238);
+	 padding-top: 3px;
+}
+
+.img-top{
+	border-radius: 9px;
+	overflow: hidden;
+	position: relative;
+}
+
+.img-top img{
+	width: 100%;
+	display: block;
+}
+
+.img-overlay img{
+	position: absolute;
+	width:45px;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+
+.img-overlay{
+	 position: absolute;
+	 left: 0;
+	 top:0;
+	 height: 100%;
+	 width: 100%;
+	 background-color:hsla(178, 100%, 50%,0.5);
+	 opacity: 0;	 
+}
+
+.img-overlay:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.sub-content{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 padding-bottom: 3.5px;
+}
+
+svg{
+	transform: translate(0,18%);
+}
+
+.coin-image{
+	color:cyan;
+}
+
+.same-color{
+	color:#778ba7;
+}
+ 
+.my-avatar{
+	width:37px;
+	transform: translate(0,30%);
+}
+ 
+.last-span{
+	margin-left: 14px;
+}
+
+.name-span{
+	color:rgb(210, 206, 206);
+	margin-left: 3px;
+}
+
+.main-content p:last-of-type{
+	border-top: 1px solid hsl(215, 32%, 27%);
+	padding-bottom: 8px;
+	padding-top: 6px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.name-span:hover{
+	color: cyan;
+	cursor: pointer;
+}
+ 
+ 
+h1:hover{
+	color:cyan;
+	cursor: pointer;
+}
+
+/* The end */
+ 
+ 
+ 
